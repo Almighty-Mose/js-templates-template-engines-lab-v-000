@@ -30,9 +30,13 @@ function postComment() {
   let commentName = document.getElementById("commentName");
   let commentText = document.getElementById("commentText");
   
-  let commentTemplate = document.getElementById("comment-template")
+  let commentTemplate = document.getElementById("comment-template");
   
   let commentTemplateFn = _.template(commentTemplate);
   
-  let commentTemplateHTML = commentTemplateFn({})
+  let commentTemplateHTML = commentTemplateFn({ 'comment': commentText, 'name': commentName });
+  
+  let comment = document.getElementById('comments');
+  
+  commentHTML.innerHTML += comment;
 }
