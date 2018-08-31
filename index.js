@@ -20,3 +20,7 @@ function createPost() {
   pageBody.innerHTML += pageTemplateHTML;
   
 }
+
+function postComment() {
+  
+}
