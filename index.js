@@ -11,6 +11,6 @@ function createPost() {
   
   let templateHTML = templateFn({ 'comment': comment, 'commenter': commenter });
   
+  let post DO SOMETHING
   
-  commentsDiv.innerHTML += templateHTML;
 }
