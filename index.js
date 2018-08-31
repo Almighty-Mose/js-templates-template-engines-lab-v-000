@@ -27,10 +27,10 @@ function createPost() {
 }
 
 function postComment() {
-  let commentName = document.getElementById("commentName");
-  let commentText = document.getElementById("commentText");
+  let commentName = document.getElementById("commentName").value;
+  let commentText = document.getElementById("commentText").value;
   
-  let commentTemplate = document.getElementById("comment-template");
+  let commentTemplate = document.getElementById("comment-template").innerHTML;
   
   let commentTemplateFn = _.template(commentTemplate);
   
