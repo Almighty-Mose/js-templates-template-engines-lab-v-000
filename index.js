@@ -7,5 +7,5 @@ function createPost() {
   
   let postTemplateFn = _.template(postTemplate);
   
-  
+  let 
 }
