@@ -15,7 +15,9 @@ function createPost() {
   
   let pageTemplateHTML = pageTemplateFn({ 'post': postTemplateHTML });
   
+  let pageBody = document.getElementById('page-body')
   
+  pageBody.append
   debugger;
   
 }
