@@ -7,5 +7,7 @@ function createPost() {
   
   let postTemplateFn = _.template(postTemplate);
   
-  let 
+  let postTemplateHTML = postTemplateFn({ 'title': title, 'body': body, 'author': author})
+  
+  var templateHTML = templateFn({ 'comment': comment, 'commenter': commenter });
 }
