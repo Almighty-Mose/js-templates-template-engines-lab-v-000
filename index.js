@@ -13,7 +13,7 @@ function createPost() {
   
   let pageTemplateFn = _.template(pageTemplate);
   
-  let pageTemplateHTML = pageTemplateFn('post': postTemplateHTML)
+  let pageTemplateHTML = pageTemplateFn({ 'post': postTemplateHTML });
   
   debugger;
   
