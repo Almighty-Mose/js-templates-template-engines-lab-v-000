@@ -9,9 +9,6 @@ function createPost() {
   
   let postTemplateHTML = postTemplateFn({ 'title': title, 'body': body, 'author': author});
   
-  // let templateHTML = templateFn({ 'comment': comment, 'commenter': commenter });
-  
   debugger;
-  let post
   
 }
