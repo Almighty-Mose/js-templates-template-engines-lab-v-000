@@ -38,5 +38,5 @@ function postComment() {
   
   let comment = document.getElementById('comments');
   
-  commentHTML.innerHTML += comment;
+  comment.innerHTML += commentTemplateHTML;
 }
