@@ -6,9 +6,10 @@
   <body>
     <main>
       <form id="post-form" onsubmit="createPost();return false;">
-        Title: <input type="text">
-        Body: <input type="text">
-        Author: <input type="text">
+        Title: <input type="text" id="postTitle"><br>
+        Body: <input type="text" id="postBody"><br>
+        Author: <input type="text" id="postAuthor"><br>
+        <input type="submit">
       </form>
     </main>
     <script src="node_modules/lodash/lodash.min.js"></script>
