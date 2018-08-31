@@ -19,7 +19,9 @@ function createPost() {
   
   pageBody.innerHTML += pageTemplateHTML;
   
-  let commentTemplate = document.getElementById('comments')
+  
+  
+  
 }
 
 function postComment() {
