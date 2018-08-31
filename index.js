@@ -5,5 +5,7 @@ function createPost() {
   
   let postTemplate = document.getElementById("post-template").innerHTML;
   
-  let postTemplateFn = _.template('') 
+  let postTemplateFn = _.template(postTemplate);
+  
+  
 }
