@@ -27,5 +27,8 @@ function createPost() {
 }
 
 function postComment() {
+  let commentName = document.getElementById("commentName");
+  let commentText = document.getElementById("commentText");
   
+  let commentTemplate = document.getElementById("comments-template")
 }
