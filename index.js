@@ -9,7 +9,11 @@ function createPost() {
   
   let postTemplateHTML = postTemplateFn({ 'title': title, 'body': body, 'author': author});
   
-  let pageTemplate = document.getElementById('page-template')
+  let pageTemplate = document.getElementById('page-template').innerHTML;
+  
+  let pageTemplateFn = _.template(pageTemplate);
+  
+  let pageTemplateHTML = pageTemplateFn('post': postTemplateHTML)
   
   debugger;
   
